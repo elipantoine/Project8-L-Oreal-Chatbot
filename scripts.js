@@ -58,3 +58,6 @@ chatForm.addEventListener("submit", async (e) => {
     chatWindow.textContent = 'Sorry, something went wrong. Please try again later.'; 
   }
 
+  // Clear the input field
+  userInput.value = '';
+});
